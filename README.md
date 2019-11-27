@@ -6,19 +6,23 @@ For learning Rails
 1. Dockerファイル作成
 2. docker-compose.ymlファイル作成
 3. GemfileとGemfile.lockを作成
-4. 下記コマンドを実行して、Railsのスケルトンと、MySQL DBを起動。途中、Gemfileを更新する旨、聞かれるのでY押下。
+4. 下記コマンドを実行
 ```
 docker-compose run app rails new . --api -T
 ```
+（結果）Railsのスケルトンが作成される。またMySQL DBのコンテナが起動。途中、Gemfileを更新する旨、聞かれるのでY押下。
 
-上記実行後、作られたイメージとコンテナ確認
+5. 念のため、作られたイメージとコンテナ確認
 ```
 docker images
- (sampleapp, mysql, rubyのイメージが作成されている)
- 
-docker ps -a
- (rails newが実行されたコンテナ（exit済）と、継続実行中mysqlコンテナが作成される)
 ```
+ (結果）sampleapp, mysql, rubyのイメージが作られているのが分かる
+
+```
+docker ps -a
+```
+（結果） rails newが実行されたコンテナ（exit済）と、継続実行中mysqlコンテナが作成されているのが分かる
+
 
 
 参考リンク
