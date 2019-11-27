@@ -1,0 +1,2 @@
+# railsapisample
+For learning Rails
