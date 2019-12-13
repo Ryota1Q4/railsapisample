@@ -6,4 +6,4 @@ For learning Rails
 [Wiki](https://github.com/Ryota1Q4/railsapisample/wiki)を参照
 
 ### Dockerコマンド
-[Qiita記事](https://qiita.com/matsu123j/items/5374245adb1f9afe138a)を参照
+[Qiita投稿記事](https://qiita.com/matsu123j/items/5374245adb1f9afe138a)を参照
